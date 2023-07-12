@@ -262,3 +262,59 @@ footer {
   padding: 20px;
   border-radius: 10px;
 }
+
+/* Products cards styling */
+
+.products__section {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card__container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid black;
+  background-color: #333;
+}
+
+.checkout__btn {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.checkout__btn:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 19px;
+}
